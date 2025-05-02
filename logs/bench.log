@@ -1,0 +1,45 @@
+2025-05-02 11:55:34,640 DEBUG cd frappe-bench && python3 -m venv env
+2025-05-02 11:55:38,927 DEBUG cd frappe-bench && /home/nyt/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-05-02 11:55:41,584 DEBUG cd frappe-bench && /home/nyt/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-05-02 11:55:44,548 LOG Getting frappe
+2025-05-02 11:55:44,548 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch develop --depth 1 --origin upstream
+2025-05-02 11:55:56,177 LOG Installing frappe
+2025-05-02 11:55:56,177 DEBUG cd /home/nyt/frappe-bench && /home/nyt/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nyt/frappe-bench/apps/frappe 
+2025-05-02 11:58:22,842 DEBUG cd /home/nyt/frappe-bench/apps/frappe && yarn install --check-files
+2025-05-02 11:59:30,725 DEBUG cd frappe-bench && bench build
+2025-05-02 11:59:31,842 ERROR There was a problem while creating frappe-bench
+2025-05-02 12:00:27,673 WARNING /home/nyt/.local/bin/bench init frappe-bench --frappe-branch develop executed with exit code 1
+2025-05-02 12:00:47,173 INFO /home/nyt/.local/bin/bench build
+2025-05-02 12:03:13,811 INFO /home/nyt/.local/bin/bench build
+2025-05-02 12:04:20,340 INFO /home/nyt/.local/bin/bench build
+2025-05-02 12:05:21,225 INFO /home/nyt/.local/bin/bench new-site erpnext.localhost
+2025-05-02 12:06:18,762 INFO /home/nyt/.local/bin/bench new-site erpnext.localhost
+2025-05-02 12:06:20,988 INFO /home/nyt/.local/bin/bench new-site erpnext.localhost
+2025-05-02 12:06:40,570 INFO /home/nyt/.local/bin/bench drop-site erpnext.localhost --force
+2025-05-02 12:06:53,029 INFO /home/nyt/.local/bin/bench new-site erpnext.localhost
+2025-05-02 12:08:03,239 INFO /home/nyt/.local/bin/bench get-app erpnext --branch develop https://github.com/frappe/erpnext
+2025-05-02 12:08:03,263 LOG Getting erpnext
+2025-05-02 12:08:03,263 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext --branch develop --depth 1 --origin upstream
+2025-05-02 12:08:15,477 LOG Installing erpnext
+2025-05-02 12:08:15,477 DEBUG cd /home/nyt/frappe-bench && /home/nyt/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nyt/frappe-bench/apps/erpnext 
+2025-05-02 12:08:34,955 DEBUG cd /home/nyt/frappe-bench/apps/erpnext && yarn install --check-files
+2025-05-02 12:08:36,274 DEBUG bench build --app erpnext
+2025-05-02 12:08:36,458 INFO /home/nyt/.local/bin/bench build --app erpnext
+2025-05-02 12:08:59,351 INFO /home/nyt/.local/bin/bench --site erpnext.localhost install-app erpnext
+2025-05-02 12:11:59,562 INFO /home/nyt/.local/bin/bench start
+2025-05-02 12:12:00,099 INFO /home/nyt/.local/bin/bench schedule
+2025-05-02 12:12:00,179 INFO /home/nyt/.local/bin/bench serve --port 8000
+2025-05-02 12:12:00,248 INFO /home/nyt/.local/bin/bench watch
+2025-05-02 12:12:00,304 INFO /home/nyt/.local/bin/bench worker
+2025-05-02 12:16:05,209 INFO /home/nyt/.local/bin/bench start
+2025-05-02 12:16:06,135 INFO /home/nyt/.local/bin/bench watch
+2025-05-02 12:16:06,484 INFO /home/nyt/.local/bin/bench serve --port 8000
+2025-05-02 12:16:06,523 INFO /home/nyt/.local/bin/bench worker
+2025-05-02 12:16:06,610 INFO /home/nyt/.local/bin/bench schedule
+2025-05-02 12:16:21,251 INFO /home/nyt/.local/bin/bench --site erpnext.localhost install-app erpnext --force
+2025-05-02 12:20:05,296 INFO /home/nyt/.local/bin/bench restart
+2025-05-02 12:20:08,630 INFO /home/nyt/.local/bin/bench start
+2025-05-02 12:20:09,244 INFO /home/nyt/.local/bin/bench worker
+2025-05-02 12:20:09,297 INFO /home/nyt/.local/bin/bench serve --port 8000
+2025-05-02 12:20:09,308 INFO /home/nyt/.local/bin/bench watch
+2025-05-02 12:20:09,441 INFO /home/nyt/.local/bin/bench schedule

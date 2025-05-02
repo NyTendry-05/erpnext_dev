@@ -1,0 +1,12 @@
+2025-05-02 12:18:40,100 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSubcontracting Order Supplied Item` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `conversion_factor` decimal(21,9) NOT NULL DEFAULT 1.0, MODIFY `supplied_qty` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_supplied_qty` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `returned_qty` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `consumed_qty` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `required_qty` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `rate` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-05-02 12:18:46,735 WARNING database DDL Query made to DB:
+ALTER TABLE `tabUTM Campaign` ADD COLUMN `crm_campaign` varchar(140)
+2025-05-02 12:18:49,022 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAddress` ADD COLUMN `tax_category` varchar(140), ADD COLUMN `is_your_company_address` tinyint NOT NULL DEFAULT 0
+2025-05-02 12:18:49,032 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAddress` MODIFY `is_primary_address` tinyint NOT NULL DEFAULT 0, MODIFY `disabled` tinyint NOT NULL DEFAULT 0, MODIFY `is_shipping_address` tinyint NOT NULL DEFAULT 0
+2025-05-02 12:18:49,153 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` ADD COLUMN `is_billing_contact` tinyint NOT NULL DEFAULT 0
+2025-05-02 12:18:49,163 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` MODIFY `sync_with_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `unsubscribed` tinyint NOT NULL DEFAULT 0, MODIFY `pulled_from_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `is_primary_contact` tinyint NOT NULL DEFAULT 0
