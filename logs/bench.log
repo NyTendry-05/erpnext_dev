@@ -43,3 +43,65 @@
 2025-05-02 12:20:09,297 INFO /home/nyt/.local/bin/bench serve --port 8000
 2025-05-02 12:20:09,308 INFO /home/nyt/.local/bin/bench watch
 2025-05-02 12:20:09,441 INFO /home/nyt/.local/bin/bench schedule
+2025-05-04 17:53:33,367 INFO /home/nyt/.local/bin/bench start
+2025-05-04 17:53:33,908 INFO /home/nyt/.local/bin/bench schedule
+2025-05-04 17:53:33,909 INFO /home/nyt/.local/bin/bench watch
+2025-05-04 17:53:33,912 INFO /home/nyt/.local/bin/bench serve --port 8000
+2025-05-04 17:53:33,934 INFO /home/nyt/.local/bin/bench worker
+2025-05-04 19:15:17,097 INFO /home/nyt/.local/bin/bench start
+2025-05-04 19:15:20,267 INFO /home/nyt/.local/bin/bench watch
+2025-05-04 19:15:20,359 INFO /home/nyt/.local/bin/bench serve --port 8000
+2025-05-04 19:15:20,475 INFO /home/nyt/.local/bin/bench schedule
+2025-05-04 19:15:20,653 INFO /home/nyt/.local/bin/bench worker
+2025-05-04 19:52:38,197 INFO /home/nyt/.local/bin/bench start
+2025-05-04 19:52:51,603 INFO /home/nyt/.local/bin/bench start
+2025-05-04 19:52:58,597 INFO /home/nyt/.local/bin/bench start
+2025-05-04 19:53:03,847 INFO /home/nyt/.local/bin/bench restart
+2025-05-04 19:53:08,931 INFO /home/nyt/.local/bin/bench start
+2025-05-04 19:54:40,799 INFO /home/nyt/.local/bin/bench stop
+2025-05-04 19:56:11,979 INFO /home/nyt/.local/bin/bench start
+2025-05-04 19:56:12,884 INFO /home/nyt/.local/bin/bench schedule
+2025-05-04 19:56:13,000 INFO /home/nyt/.local/bin/bench serve --port 8000
+2025-05-04 19:56:13,078 INFO /home/nyt/.local/bin/bench watch
+2025-05-04 19:56:13,209 INFO /home/nyt/.local/bin/bench worker
+2025-05-05 07:51:18,472 INFO /home/nyt/.local/bin/bench start
+2025-05-05 07:51:18,829 INFO /home/nyt/.local/bin/bench serve --port 8000
+2025-05-05 07:51:18,840 INFO /home/nyt/.local/bin/bench schedule
+2025-05-05 07:51:18,840 INFO /home/nyt/.local/bin/bench worker
+2025-05-05 07:51:18,844 INFO /home/nyt/.local/bin/bench watch
+2025-05-05 08:09:03,537 INFO /home/nyt/.local/bin/bench --site erpnext.localhost set-config developer_mode 1
+2025-05-05 08:09:17,036 INFO /home/nyt/.local/bin/bench --site erpnext.localhost clear-cache
+2025-05-05 08:09:24,424 INFO /home/nyt/.local/bin/bench restart
+2025-05-05 08:09:43,624 INFO /home/nyt/.local/bin/bench start
+2025-05-05 08:09:44,065 INFO /home/nyt/.local/bin/bench watch
+2025-05-05 08:09:44,086 INFO /home/nyt/.local/bin/bench worker
+2025-05-05 08:09:44,146 INFO /home/nyt/.local/bin/bench schedule
+2025-05-05 08:09:44,187 INFO /home/nyt/.local/bin/bench serve --port 8000
+2025-05-05 08:31:26,996 INFO /home/nyt/.local/bin/bench new-app custom_import
+2025-05-05 08:31:27,003 LOG creating new app custom_import
+2025-05-05 08:33:22,040 LOG Installing custom_import
+2025-05-05 08:33:22,050 DEBUG cd /home/nyt/frappe-bench && /home/nyt/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nyt/frappe-bench/apps/custom_import 
+2025-05-05 08:34:38,026 WARNING cd /home/nyt/frappe-bench && /home/nyt/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nyt/frappe-bench/apps/custom_import  executed with exit code 1
+2025-05-05 08:34:38,045 WARNING /home/nyt/.local/bin/bench new-app custom_import executed with exit code 1
+2025-05-05 08:38:47,230 INFO /home/nyt/.local/bin/bench new-app custom_import
+2025-05-05 08:38:47,238 LOG creating new app custom_import
+2025-05-05 08:39:21,997 LOG Installing custom_import
+2025-05-05 08:39:22,005 DEBUG cd /home/nyt/frappe-bench && /home/nyt/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nyt/frappe-bench/apps/custom_import 
+2025-05-05 08:40:45,443 DEBUG bench build --app custom_import
+2025-05-05 08:40:46,019 INFO /home/nyt/.local/bin/bench build --app custom_import
+2025-05-05 08:50:12,219 INFO /home/nyt/.local/bin/bench start
+2025-05-05 08:50:12,676 INFO /home/nyt/.local/bin/bench schedule
+2025-05-05 08:50:12,712 INFO /home/nyt/.local/bin/bench watch
+2025-05-05 08:50:12,739 INFO /home/nyt/.local/bin/bench worker
+2025-05-05 08:50:12,788 INFO /home/nyt/.local/bin/bench serve --port 8000
+2025-05-05 08:58:58,127 INFO /home/nyt/.local/bin/bench new-app reset_db
+2025-05-05 08:58:58,136 LOG creating new app reset_db
+2025-05-05 08:59:33,390 LOG Installing reset_db
+2025-05-05 08:59:33,392 DEBUG cd /home/nyt/frappe-bench && /home/nyt/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nyt/frappe-bench/apps/reset_db 
+2025-05-05 08:59:36,240 DEBUG bench build --app reset_db
+2025-05-05 08:59:36,354 INFO /home/nyt/.local/bin/bench build --app reset_db
+2025-05-05 09:05:20,896 INFO /home/nyt/.local/bin/bench start
+2025-05-05 09:05:21,344 INFO /home/nyt/.local/bin/bench schedule
+2025-05-05 09:05:21,388 INFO /home/nyt/.local/bin/bench watch
+2025-05-05 09:05:21,403 INFO /home/nyt/.local/bin/bench serve --port 8000
+2025-05-05 09:05:21,406 INFO /home/nyt/.local/bin/bench worker

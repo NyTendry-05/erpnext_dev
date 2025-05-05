@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2025-05-05 08:27:41.442676",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2025-05-05 08:27:41.442676",
+ "modified_by": "Administrator",
+ "module": "ERPNext Integrations",
+ "name": "csv-import",
+ "owner": "Administrator",
+ "page_name": "csv-import",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Csv Import"
+}

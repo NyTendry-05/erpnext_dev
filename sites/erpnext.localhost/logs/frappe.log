@@ -1,0 +1,6 @@
+2025-05-05 08:14:28,800 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-jfoezoxfty","__islocal":1,"__unsaved":1,"owner":"admin@example.com","system_page":0,"standard":"Yes","roles":[],"page_name":"Import Csv","title":"Import Csv","module":"ERPNext Integrations"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-05 08:19:15,958 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-hpdktqkjzs","__islocal":1,"__unsaved":1,"owner":"admin@example.com","system_page":0,"standard":"Yes","roles":[],"page_name":"Csv Import","title":"Import ","module":"ERPNext Integrations"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

@@ -17,5 +17,25 @@
         "required": [],
         "idx": 2,
         "version": "16.0.0-dev"
+    },
+    "custom_import": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "b912a55abf0b7a6e056c1cda13369c5c9c867bf1",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "reset_db": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "7a640c1d2090af50bb6ac92cf1c3a1cce6ba574a",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
     }
 }
